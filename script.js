@@ -71,7 +71,7 @@ let messageIndex = 0;
 function handleNoClick() {
     const noButton = document.querySelector('.no-button');
     const yesButton = document.querySelector('.yes-button');
-    const gif = document.getElementById('valentineGif'); // on récupère le GIF
+    const gif = document.getElementById('valentineGif');
 
     
     noButton.textContent = messages[messageIndex];
@@ -82,7 +82,7 @@ function handleNoClick() {
     yesButton.style.fontSize = `${currentSize * 1.5}px`;
 
     
-    gif.src = "cutegif/gif2.gif";
+    gif.src = "gif2.gif";
 }
 
 function handleYesClick() {
@@ -94,18 +94,17 @@ for (let i = 0; i < 50; i++) {
     heart.classList.add('heart');
     heart.textContent = "❤️";
 
-    // Position horizontale aléatoire
+   
     heart.style.left = Math.random() * 100 + "%";
 
-    // Taille aléatoire
     const size = Math.random() * 20 + 10;
     heart.style.fontSize = size + "px";
 
-    // Couleur aléatoire
+
     const colors = ["#FF69B4", "#FF1493", "#FFB6C1"];
     heart.style.color = colors[Math.floor(Math.random() * colors.length)];
 
-    // Animation aléatoire
+
     heart.style.animationDuration = (4 + Math.random() * 4) + "s";
     heart.style.animationDelay = Math.random() * 5 + "s";
 
