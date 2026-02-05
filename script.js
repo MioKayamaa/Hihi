@@ -82,7 +82,10 @@ function handleNoClick() {
     yesButton.style.fontSize = `${currentSize * 1.5}px`;
 
     
-    gif.src = "gif2.gif";
+    <div class="gif_container">
+    <img id="main-gif" src="gif1.gif" alt="Cute GIF">
+</div>
+
 }
 
 function handleYesClick() {
