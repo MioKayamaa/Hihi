@@ -83,8 +83,8 @@ function handleNoClick() {
 
     
     <div class="gif_container">
-    <img id="main-gif" src="gif1.gif" alt="Cute GIF">
-</div>
+            <img <img id="valentineGif" src="gif2.gif" alt="Cute GIF">
+        </div>
 
 }
 
